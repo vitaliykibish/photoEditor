@@ -1,0 +1,14 @@
+{
+  "presets": ["es2015", "stage-2", "react"],
+  "plugins": [
+    ["module-resolver", {
+      "root": ["./src"],
+      "alias": {
+        "components": "./components",
+        "containers": "./containers",
+        "store": "./store",
+        "utils": "./utils"
+      }
+    }]
+  ]
+}

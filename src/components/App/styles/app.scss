@@ -1,0 +1,11 @@
+@import 'reset.scss';
+@import 'global.scss';
+
+.app {
+  &-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 10px, rgba(0, 0, 0, 0.2) 0px 3px 10px;
+  }
+}

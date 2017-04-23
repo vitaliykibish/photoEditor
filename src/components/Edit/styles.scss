@@ -1,0 +1,25 @@
+.edit {
+  &-container {
+    display: block;
+  }
+
+  &-actions {
+    padding: 10px 0;
+    text-align: left;
+
+    button {
+      display: inline-block;
+      margin-right: 10px;
+    }
+  }
+
+  &-color {
+    padding: 10px 0;
+    text-align: center;
+
+    li {
+      display: inline-block;
+      margin: 0 5px;
+    }
+  }
+}
